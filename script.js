@@ -89,17 +89,14 @@ document.getElementById('certifications-container').innerHTML = certificationsHT
 // Load contact
 const contactHTML = `
     <div class="contact-item">
-        <div class="contact-icon">📧</div>
         <h4>Email</h4>
         <a href="mailto:${portfolioData.profile.email}">${portfolioData.profile.email}</a>
     </div>
     <div class="contact-item">
-        <div class="contact-icon">💼</div>
         <h4>LinkedIn</h4>
         <a href="${portfolioData.profile.linkedin}" target="_blank">linkedin.com/in/dasunijayasinghe</a>
     </div>
     <div class="contact-item">
-        <div class="contact-icon">💻</div>
         <h4>GitHub</h4>
         <a href="${portfolioData.profile.github}" target="_blank">github.com/DSJayasinghe</a>
     </div>
@@ -118,4 +115,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             });
         }
     });
+
 });
