@@ -94,7 +94,7 @@ const contactHTML = `
     </div>
     <div class="contact-item">
         <h4>LinkedIn</h4>
-        <a href="${portfolioData.profile.linkedin}" target="_blank">https://www.linkedin.com/in/dasuni-s-jayasinghe/</a>
+        <a href="${portfolioData.profile.linkedin}" target="_blank">linkedin.com/in/dasuni-s-jayasinghe/</a>
     </div>
     <div class="contact-item">
         <h4>GitHub</h4>
@@ -117,5 +117,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 
 });
+
 
 
