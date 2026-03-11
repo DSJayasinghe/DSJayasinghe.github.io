@@ -5,7 +5,7 @@ const portfolioData = {
         description: "Passionate about building innovative solutions with Full-Stack Development, AI, and modern technologies. Currently pursuing BSc (Hons) in Computing at NIBM.",
         email: "dasuni.s.jayasinghe@gmail.com",
         github: "https://github.com/DSJayasinghe",
-        linkedin: "https://www.linkedin.com/in/dasunijayasinghe",
+        linkedin: "https://www.linkedin.com/in/dasuni-s-jayasinghe/",
         photo: "profile.jpg"
     },
 
@@ -78,4 +78,5 @@ const portfolioData = {
             date: "2024"
         }
     ]
+
 };
